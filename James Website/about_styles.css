@@ -1,0 +1,28 @@
+/* About Me Page */
+.two-column-wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1.2fr 1fr ;
+
+}
+
+.profile-image-wrapper img  {
+    Width: 600px;
+    height: 1100px;
+    background-image: url(IMG/IMG_8203.JPG);
+    background-position: top;
+}   
+
+.profile-content-wrapper {
+    padding: 50px;
+}
+
+.profile-content-wrapper h1 {
+    color:orange;
+    align-content:center;
+}
+
+.profile-content-wrapper2   img {
+    width: 650px;
+    height: 550px;
+   
+}

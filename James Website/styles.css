@@ -1,0 +1,87 @@
+.nav-wrapper {
+    position: sticky;
+    display: flex; 
+    justify-content: space-between;
+    font-family:sans-serif;
+    padding: 38px;
+    background-color: rgb(250, 123, 3)
+}
+.left-side {
+    display: flex;
+}
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 1em;
+    text-transform: 
+
+}
+body {
+    margin: 0px;
+    user-select: auto;
+    pointer-events: auto;
+}
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 1s;
+
+}
+
+.nav-link-wrapper a {
+    color:#fdfdfd;
+    text-decoration: none;
+    transition: color 1s;
+
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid rgb(7, 7, 7);
+
+}
+
+.nav-link-wrapper a:hover {
+    color: rgb(7, 7, 7);
+    
+}
+    
+ .osu {
+        width:2113px;
+        height:1300px;
+        background-image: url(IMG/OSU.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+ }
+ .ochem {
+    width:2113px;
+    height:1300px;
+    background-image: url(IMG/Ochem.jpg);
+    background-size: cover
+    background-repeat: no-repeat
+    
+ }
+    .name {
+        position: static; 
+        left: 50%;
+        top: 15%;
+        background-color: rgba(51, 153, 11, 0.6);
+        border-radius: 0px;
+        font-size:50px
+    }
+     
+    .welcome {
+        left:0%;
+
+    }
+    .intro {
+
+        position: fixed;
+        width:625px;
+        left: 8%;
+        top: 28%;
+        font-family:'Times New Roman', Times, serif;
+        background-color: rgba(128, 236, 213, 0.6);
+        border-radius: 25px;
+        font-size:23px
+        
+    }
+        
