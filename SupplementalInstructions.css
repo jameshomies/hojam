@@ -1,4 +1,4 @@
-
+@media only screen and (min-width: 769px){
 .SI-header{
     display:grid; 
     background-color:rgb(172, 92, 1);
@@ -103,6 +103,8 @@
    height:500px;
    background-color:rgb(240, 132, 9);
 }
+}
+
 
 .Previous-Worksheets h1{
    text-align:center;
@@ -122,3 +124,155 @@
 }
 
 
+@media only screen and (max-width: 769px){
+    @media only screen and (max-height: 800px){
+
+    .column-tab2 { 
+        position:absolute;
+        top: 90%;
+        left: 5%;
+        border-radius: 5px;
+        background-color:rgb(165, 82, 22);
+        float: left;
+        height: 8%
+        
+    }
+
+    .column-2 img{
+        display: absolute;
+        border-radius: 30px;
+        width: 100%;
+        height: 100%;
+        left: 30%;
+    
+    }
+
+    .column-1 p {
+   
+        padding: 30px;
+        background-color: none;
+        
+        width: 100%;
+        left: 5%;
+        top: 15%;
+        font-family:'Times New Roman', Times, serif;
+        background-color: rgba(251, 255, 254, 0.993);
+        border-radius: 10px;
+    }
+
+        .column-tab2 h2{ 
+            position:absolute;
+            top: 0%;
+            left: 180%;
+            border-radius: 5px;
+            background-color:rgb(165, 82, 22);
+           float:left;
+           
+            padding: 5px;
+            border-radius: 0px;
+            justify-content:space-between;
+        }
+        
+        .column-tab2 a p{ 
+           
+            border-radius: 5px;
+            font-size: 20px;
+            background-color: none;
+            padding:5px;
+            left: 5%;
+           
+        }
+
+        .column-3 p {
+   
+            padding: 30px;
+            
+            width: 100%;
+            left: 5%;
+            font-family:'Times New Roman', Times, serif;
+            background-color: rgb(128, 236, 212);
+            border-radius: 20px;
+        
+        }
+
+}
+}
+
+@media only screen and (max-width: 375px){
+    @media only screen and (min-height: 811px){
+    .column-tab2 { 
+       
+        top: 100%;
+        left: 20%;
+        border-radius: 5px;
+        background-color:orange;
+        display:flex;
+        justify-content: space-between;
+        
+        
+    }
+
+    .column-2 img{
+        display: absolute;
+        border-radius: 30px;
+        width: 100%;
+        height: 100%;
+        left: 30%;
+    
+    }
+
+    .column-1 p {
+   
+        padding: 30px;
+        background-color: none;
+        
+        width: 100%;
+        left: 5%;
+        top: 15%;
+        font-family:'Times New Roman', Times, serif;
+        background-color: rgba(251, 255, 254, 0.993);
+        border-radius: 10px;
+    }
+
+         .column-3 p {
+   
+        padding: 30px;
+        
+        width: 100%;
+        left: 5%;
+        font-family:'Times New Roman', Times, serif;
+        background-color: rgb(128, 236, 212);
+        border-radius: 20px;
+    
+    }
+
+
+    
+    .column-tab2 a p{ 
+       
+        border-radius: 5px;
+        font-size: 25px;
+        background-color: none;
+        padding:5px;
+        left: 5%;
+        margin: 15px;
+        color: white;
+        text-decoration: none;
+        
+    }
+    .column-tab2 a { 
+       
+        border-radius: 5px;
+        font-size: 17px;
+        background-color: none;
+        left: 5%;
+        padding: 3%;
+        color: white;
+        text-decoration: none;
+        
+       
+    }
+
+
+}
+}
