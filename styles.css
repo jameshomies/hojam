@@ -43,6 +43,16 @@ html
         border-radius: 25px;
     
     }
+.updates p{
+    position:fixed;
+    width: 350px;
+    left: 70%;
+    top: 28%;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgba(68, 253, 151, 0.6);
+    border-radius: 2px;
+}
+
         .wrapper {
             width:100%;
             display: column
@@ -74,7 +84,16 @@ html
             display: block;
             width: 350px;
             top: 60%;
-            
+        }
+        .updates p{
+
+            left: 5%;
+            position: absolute;
+            display: block;
+            width: 350px;
+            top: 150%;
+
+        } 
            
         }
 
