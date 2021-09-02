@@ -49,6 +49,21 @@ border: 1px solid black;
 font-family:'Times New Roman', Times, serif
 }
 
+.General-Chemistry-I a{
+text-decoration:none;
+color: black;
+
+}
+.General-Chemistry-I a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2.5px;
+    transition: 0.5s;
+    color:white;
+    
+}
+}
+
 .General-Chemistry-II{
     background-color:rgb(202, 190, 190);
     border: 1px solid black;
