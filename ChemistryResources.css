@@ -60,6 +60,65 @@ color: black;
     text-decoration-thickness: 2.5px;
     transition: 0.5s;
     color:white;
+}
+
+.General-Chemistry-II a{
+text-decoration:none;
+color: black;
+
+}
+.General-Chemistry-II a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2.5px;
+    transition: 0.5s;
+    color:white;
+    
+}
+
+
+
+.General-Chemistry-III a{
+text-decoration:none;
+color: black;
+
+}
+.General-Chemistry-III a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2.5px;
+    transition: 0.5s;
+    color:white;
+    
+}
+
+
+.Organic-Chemistry-I a{
+text-decoration:none;
+color: black;
+
+}
+.Organic-Chemistry-I a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2.5px;
+    transition: 0.5s;
+    color:white;
+    
+}
+
+
+.General-Chemistry-II a{
+text-decoration:none;
+color: black;
+
+}
+.General-Chemistry-II a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2.5px;
+    transition: 0.5s;
+    color:white;
     
 }
 }
