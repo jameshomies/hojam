@@ -28,6 +28,18 @@ Body {
 .Subramanian h3{
     margin: 0px 13%;
 }
+.Electroceramics p{
+    margin: 0px 18%;
+}
+.Electroceramics h1{
+    margin: 0px 13%;
+}
+.Electroceramics h2{
+    margin: 0px 13%;
+}
+.Electroceramics h3{
+    margin: 0px 13%;
+}
 @media only screen and (min-width: 768px){
 .MAD p{
     margin: 0px 18%;
@@ -63,7 +75,19 @@ font-family: sans-serif;
      color: rgb(255, 123, 0);
      text-decoration:none;
 }
-.Subramanian a:hover {
+.Electroceramics a:hover {
+    color:blue;
+}
+
+.Electroceramics p{
+    font-size: 20px;
+font-family: sans-serif;
+    }
+.Electroceramics  a{
+     color: rgb(255, 123, 0);
+     text-decoration:none;
+}
+.Electroceramics a:hover {
     color:blue;
 }
 .MOF {
