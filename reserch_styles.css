@@ -111,30 +111,27 @@ font-family: sans-serif;
     display:block;
 }
 
-@media only screen and(max-width: 768px){
-    .MOF img {
-        left:100%
-    }
-}
 
-@media only screen and (max-width: 768px){
-    .perovskite img{
-        width: 70%;
-        height: 25%;
-    }
-    }
+
+    
     
     @media only screen and (max-width: 768px){
         .MAD p{
             margin: 0px 8%;
+            
+        }
+        .perovskite img{
+            width: 70%;
+            height: 25%;
+        }
+        .Subramanian p{
+            margin: 0px 8%;
+        }
+        .Electroceramics p{
+            margin: 0px 8%;
         }
         }
         
-        @media only screen and (max-width: 768px){
-            .Subramanian p{
-                margin: 0px 8%;
-            }
-            }
-            
+       
 
 }

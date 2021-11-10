@@ -31,23 +31,31 @@
 
 @media only screen and (max-width:767px){
     .profile-image-wrapper img  {
-        margin: 50px 80px 0px;
-        Width: 55%;
+        margin: 50px 90px 0px;
+        Width: 52%;
         height: 350px;
         background-image: url(IMG/IMG_8203.JPG);   
         
     }   
     
     .profile-content-wrapper p {
-        padding: 10px;
+        padding: 15px;
         width:100%;
         margin: 0px 10px;
+    }
+    .profile-content-wrapper{
+        width: 100%;
     }
 
     .profile-content-wrapper h1 {
         text-align: center;
        
     }
+
+    .profile-content-wrapper2 img{
+        width: 100%;
+    }
+
 }    
 
 
