@@ -78,11 +78,14 @@ html
     }
 
     @media only screen and (max-width: 768px){
+        .intro{
+            width: 100%;
+        }
         .intro p{ 
 
             position:static;
             display: block;
-            width: 350px;
+            width: 100%;
             top: 30%;
             left: 30%;
         }
@@ -168,6 +171,7 @@ html
         
         .nav-link-wrapper a:hover {
             color: rgb(7, 7, 7);
+        }
         .intro {
             width: 50%;
             margin: 20px;
