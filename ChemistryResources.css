@@ -2,7 +2,7 @@
 .Resources-title {
     display:flex;
     justify-content: space-between;
-    background-color: rgb(14, 7, 0);
+    background-color: rgb(61, 59, 59);
     height: 80%;
     font-size: 300%;
     
@@ -11,12 +11,12 @@
 .Resources-title p{
  margin: 10px 10%;
 font-style:oblique;
- color:white;
+ color:rgb(250, 250, 250);
 }
 
 .discretion{
     text-align:center;
-    background-color: rgb(219, 87, 10);
+    background-color: rgb(61, 59, 59);
     font-family: 'Times New Roman', Times, serif;
     color:rgb(255, 255, 255);
     
@@ -24,7 +24,7 @@ font-style:oblique;
 
 .six-column-wrapper{
     display:grid; 
-    background-color:rgb(26, 211, 57);
+    background-color:rgb(136, 136, 136);
     grid-template-columns: 2fr 2fr 2fr 2fr 2fr ;
     font-family:sans-serif
 }

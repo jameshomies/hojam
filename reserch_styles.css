@@ -5,11 +5,191 @@
 
 Body {
 }
-.research-header img {
-    width: 100%;
-    height: 400px;
+
+.research-header img{
+    width:100%;
+    height: 800px;
+    object-fit:cover;
+    
     
 }
+
+.research-header2 img{
+    width:100%;
+    height:400px;
+    object-fit:contain;
+    
+}
+.experience-photo img{
+    width:230px;
+    border-radius:40px;
+    height: 275px;
+    top: 59px;
+   }
+   .resume-link a{
+    margin:10px;
+    text-decoration: none;
+    color: rgb(240, 152, 20);
+}
+.resume-link a:hover {
+    color:rgb(6, 83, 199)
+}
+  
+   @media only screen and (min-width: 769px){
+    .experience-photo { 
+        height:200px;
+        width: 200px;
+        left: 20%;
+        border-radius: 50%;
+        margin:0px 0px 0px 400px;
+            position: absolute;
+            
+                
+    }
+    }
+    
+    @media only screen and (min-width: 769px){
+        .experience-photo img{ 
+            height:260px;
+            width: 205px;
+            Border-radius:1000%;
+            left: 20px;
+            top: 320px;
+            margin:0px 0px 0px 0px;
+                position: absolute;
+                
+                    
+        }
+
+        .experience-content img{
+            width:100%;
+            height:220px;
+            object-fit:cover;
+        }
+        }
+    
+    @media only screen and (min-width: 1025px){
+        .experience-photo{ 
+            height:0px;
+            width: 0px;
+            left: 0%;
+            top: 0%;
+            margin:0px 0px 0px 400px;
+                position: absolute;
+              
+        }
+    }    
+    @media only screen and (min-width: 1025px){
+        .experience-photo{ 
+            height:0px;
+            width: 0px;
+            left: 0%;
+            top: 5%;
+            margin:0px 0px 0px 0px;
+                position: absolute;
+                
+                    
+        }
+        }
+    @media only screen and (min-width: 769px){
+        .experience-photo{
+            top:2%;
+            left:32%;
+        }
+        }
+    
+    @media only screen and (min-width: 1025px){
+        .experience-header h1{
+            position: absolute;
+            top: 350px;
+            Left:47%;
+            width: 250px;
+        }
+    }
+    
+    
+    @media only screen and (max-width 1025px){
+        .experience-header h1{
+            position: absolute;
+            top: 10px;
+            left: 400px;
+            width: 250px;
+        }
+    }
+    
+    .experience-header b{
+        color: orange;
+        font-size: 35px;
+    }
+    @media only screen and (min-width: 1025px){
+        .experience-photo p{ 
+    width: 600px;
+    left: 250px;
+    top: 450px;
+    font-family:sans-serif;
+    border-radius: 25px;
+    background-color: rgb(248, 248, 248);
+    font-size:18px;
+    position:relative;
+    
+        }
+    }
+    
+    
+    
+    @media only screen and (max-width: 768px){
+        .experience-photo p{ 
+            width: 290px;
+        left: 33%;
+        top: 500px;
+        font-family:sans-serif;
+        border-radius: 50px;
+        background-color: white;
+        position:relative;
+        font-size: 16px;
+        }
+    }
+        
+    
+    @media only screen and (max-width: 768px){
+        .experience-header h1 { 
+            top: 80px;
+            left: 23%;
+            position: relative;
+    
+        }
+    }
+    
+    @media only screen and (max-width: 768px){
+        .experience-photo p{ 
+            width: 290px;
+        left: 0%;
+        top: 435px;
+        font-family:sans-serif;
+        border-radius: 50px;
+        background-color: white;
+        position:relative;
+        font-size: 16px;
+        }
+        }
+    
+        @media only screen and (max-width: 768px){
+            .experience-photo{ 
+                width: 290px;
+            left: 19%;
+            top: 3%;
+            font-family:sans-serif;
+            border-radius: 50px;
+            position:relative;
+            font-size: 16px;
+            }
+        }
+            
+            @media only screen and (max-width: 768px){
+                .experience-photo img{ 
+              border-radius:1000%
+                }
+            }
 
 .research-header p{ 
 }
@@ -75,6 +255,10 @@ font-family: sans-serif;
      color: rgb(255, 123, 0);
      text-decoration:none;
 }
+     .Subramanian  a:hover{
+        color:blue;
+       
+}
 .Electroceramics a:hover {
     color:blue;
 }
@@ -93,7 +277,9 @@ font-family: sans-serif;
 .MOF {
     text-align: center;
     display: block;
+    width: 100%;
 }
+
 
 .perovskite {
     text-align: center;
