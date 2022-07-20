@@ -74,6 +74,7 @@ html
 
     .osu {
         width:100%;
+        object-fit:cover;
         
         
     }
@@ -202,9 +203,9 @@ html
      .ochem img {
         width:100%;
         Height: 500px;
-        background-image: url(IMG/Ochem.jpg);
-        background-size: cover;
-        background-repeat: no-repeat
+        
+        
+     
         }
 
         .intro{
