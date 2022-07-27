@@ -1,0 +1,130 @@
+
+@media only screen and (min-width:769px){
+    .two-column-wrapper {
+        display:grid;
+        grid-template-columns: 2fr  ;
+    }
+    }
+    
+    .profile-image-wrapper img  {
+        Width: 250px;
+        height: 450px;
+        background-image: url(IMG/IMG_8203.JPG);
+        
+    }   
+    
+    .profile-content-wrapper {
+        padding: 10px;
+        width:400px;
+    }
+    
+    .profile-content-wrapper h1 {
+        color:rgb(180,6,6);
+        align-content:center;
+    }
+    
+    .profile-content-wrapper2   img {
+        width: 100%;
+        height: 100%;
+        display: flex; 
+    }
+    
+    @media only screen and (max-width:767px){
+        .profile-image-wrapper img  {
+            margin: 50px 90px 0px;
+            Width: 52%;
+            height: 350px;
+            background-image: url(IMG/IMG_8203.JPG);   
+            
+        }   
+        
+        .profile-content-wrapper p {
+            padding: 15px;
+            width:100%;
+            margin: 0px 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .profile-content-wrapper{
+            width: 100%;
+        }
+    
+        .profile-content-wrapper h1 {
+            text-align: center;
+           
+        }
+    
+        .profile-content-wrapper2 img{
+            width: 100%;
+        }
+    
+    }    
+    
+   
+    
+    
+    @media only screen and (min-width:768px) {
+        .content_wrapper {
+            
+            width: 100%;
+            padding-bottom: 0px;
+        }
+    
+            .two-column-wrapper {
+        display:grid;
+        grid-template-columns: 1fr 2fr 0.5fr
+    
+    }
+    @media only screen and (max-width:767px){
+        .two-column-wrapper{
+            display:none;
+        }
+    }
+    .profile-image-wrapper{
+        background-color:rgb(250, 85, 1);
+    }
+    .profile-content-wrapper2{
+        background-color:rgb(250, 85, 1);
+
+    }
+    
+    .profile-image-wrapper img  {
+        Width: 100%;
+        height: 1100px;
+        background-image: url(IMG/IMG_8203.JPG);
+        background-position:center;
+       object-fit: cover;
+       
+    }  
+    
+    .profile-image-wrapper2 img  {
+        Width: 100%;
+        height: 100vh;
+        background-image: url(IMG/IMG_8203.JPG);
+        
+        object-fit:cover;
+    }   
+    
+    
+    .profile-content-wrapper {
+        padding: 10px;
+        width: 100%;
+    }
+    .profile-content-wrapper p {
+        padding: 30px;
+        width: fit-content;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+    }
+    
+    .profile-content-wrapper h1 {
+        color:rgb(180,6,6);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:center;
+        margin: 10px 0px -60px
+    }
+    
+    .profile-content-wrapper2   img {
+        width: 100%;
+        height: 510px;
+       
+    }

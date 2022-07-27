@@ -3,6 +3,7 @@ html
  .osu{
         background-image: url(IMG/OSU.jpg);
         background-repeat: no-repeat;
+
  }
  }
  .ochem {
@@ -37,9 +38,11 @@ html
         Font-size:  200%;
         left:6%;
         top: 29%;
-        font-family:'Times New Roman', Times, serif;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         background-color: rgba(253, 253, 253, 0.86);
         border-radius: 10px;
+        margin-left:20px;
+        
     
        
     }
@@ -79,6 +82,20 @@ html
         
     }
 
+    @media only screen and (min-width:768px){
+        .phone{
+            display:none;
+        }
+    }
+
+
+    @media only screen and (max-width:1025px){
+.phone{
+    display:cover;
+}
+    }
+
+
     @media only screen and (max-width: 768px){
         .intro{
             width: 100%;
@@ -96,6 +113,11 @@ html
 
             
         } 
+.phone img{
+    object-fit:contain;
+    width:100%;
+}
+
           
           .beginning{
               height: 150%;
@@ -103,7 +125,7 @@ html
           }
 
           .osu img{
-              object-fit:contain;
+              object-fit:cover;
               
           }
           .intro h1{
@@ -182,9 +204,10 @@ html
            .intro h1 {
            
             margin: 90px;
-            font-size: 65px;
+            
+            font-size: 71px;
             border-radius: 15px;
-            padding: 50px 45px 50px;
+            padding: 50px 40px 50px;
             top: 19%;
             left:2%;
             text-align:center;
@@ -213,14 +236,14 @@ html
             width: fit-content;
             left: 4%;
             top: 20%;
-            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
             background-color: rgb(253, 253, 253, 0.86);
             border-radius: 30px;
         }
         .intro h3{
-            font-size:24px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
-            margin: 20px;
+            font-size:30px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 10px;
         }
  
 

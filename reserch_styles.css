@@ -8,10 +8,17 @@ Body {
 
 .research-header img{
     width:100%;
-    height: 800px;
+    height: 65vh;
     object-fit:cover;
     
     
+}
+
+@media only screen and (max-width:768px){
+    .research-header img{
+        height: 400px;
+        object-fit:cover;
+    }
 }
 
 .research-header2 img{
@@ -21,15 +28,16 @@ Body {
     
 }
 .experience-photo img{
-    width:230px;
-    border-radius:40px;
+    width:80%;
+    border-radius:50%;
     height: 275px;
     top: 59px;
+    object-fit:cover;
    }
    .resume-link a{
     margin:10px;
     text-decoration: none;
-    color: rgb(240, 152, 20);
+    color: rgb(180,6,6);
 }
 .resume-link a:hover {
     color:rgb(6, 83, 199)
@@ -39,9 +47,9 @@ Body {
     .experience-photo { 
         height:200px;
         width: 200px;
-        left: 20%;
+        left: 18%;
         border-radius: 50%;
-        margin:0px 0px 0px 400px;
+        margin:0px 0px 0px 0px;
             position: absolute;
             
                 
@@ -61,6 +69,16 @@ Body {
                     
         }
 
+        @media  (max-width: 1025px){
+            .experience-photo p{
+                
+                display:none;
+                background-color:red;
+                top:1900px;
+                left: 500px;
+            }
+        }
+
         .experience-content img{
             width:100%;
             height:220px;
@@ -74,7 +92,7 @@ Body {
             width: 0px;
             left: 0%;
             top: 0%;
-            margin:0px 0px 0px 400px;
+            margin:0px 0px 0px 0px;
                 position: absolute;
               
         }
@@ -84,7 +102,7 @@ Body {
             height:0px;
             width: 0px;
             left: 0%;
-            top: 5%;
+            top: 0%;
             margin:0px 0px 0px 0px;
                 position: absolute;
                 
@@ -99,11 +117,12 @@ Body {
         }
     
     @media only screen and (min-width: 1025px){
-        .experience-header h1{
+        .experience-header {
             position: absolute;
-            top: 345px;
-            Left:50%;
-            width: 250px;
+            top: 310px;
+           left: 45%;
+            width: 300px;
+        
         }
     }
     
@@ -111,7 +130,7 @@ Body {
     @media only screen and (max-width 1025px){
         .experience-header h1{
             position: absolute;
-            top: 10px;
+            top: 0px;
             left: 400px;
             width: 250px;
         }
@@ -120,21 +139,25 @@ Body {
         display:none;
     }
 }
+
+
     
     .experience-header b{
-        color: orange;
-        font-size: 35px;
+        color: rgb(0, 0, 0);
+        font-size: 40px;
     }
     @media only screen and (min-width: 1025px){
         .experience-photo p{ 
-    width: 600px;
+    width: 500px;
     left: 250px;
-    top: 450px;
-    font-family:sans-serif;
-    border-radius: 25px;
-    background-color: rgb(248, 248, 248);
+    top: 420px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 0px;
+    background-color: rgb(250,250,250);
     font-size:18px;
-    position:relative;
+    position:absolute;
+    padding:0px;
+    margin:0px;
     
         }
     }
@@ -146,7 +169,7 @@ Body {
             width: 290px;
         left: 33%;
         top: 500px;
-        font-family:sans-serif;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         border-radius: 50px;
         background-color: white;
         position:relative;
@@ -154,7 +177,7 @@ Body {
         }
 
         .experience-content img{
-            display:none;
+            width:100%;
         }
     }
         
@@ -162,7 +185,7 @@ Body {
     @media only screen and (max-width: 768px){
         .experience-header h1 { 
             top: 80px;
-            left: 23%;
+           text-align:center;
             position: relative;
     
         }
@@ -170,12 +193,12 @@ Body {
     
     @media only screen and (max-width: 768px){
         .experience-photo p{ 
-            width: 290px;
-        left: 0%;
-        top: 435px;
-        font-family:sans-serif;
+            width: 270px;
+        left:0%;
+        top: 490px;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         border-radius: 50px;
-        background-color: white;
+        background-color: rgb(250,250,250);
         position:relative;
         font-size: 16px;
         }
@@ -185,19 +208,37 @@ Body {
             .experience-photo{ 
                 width: 290px;
             left: 19%;
-            top: 3%;
-            font-family:sans-serif;
+            top: 0%;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             border-radius: 50px;
             position:relative;
             font-size: 16px;
             }
         }
+
+        .MAD h1{
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .MAD h2{
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .MAD h3{
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .experience-header h1{
             
+                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+
+            
+        }   
             @media only screen and (max-width: 768px){
                 .experience-photo img{ 
               border-radius:1000%
                 }
+
             }
+        
 
 .research-header p{ 
 }
@@ -209,24 +250,32 @@ Body {
 
 .Subramanian h1{
     margin: 0px 13%;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 .Subramanian h2{
     margin: 0px 13%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .Subramanian h3{
     margin: 0px 13%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .Electroceramics p{
     margin: 0px 18%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .Electroceramics h1{
     margin: 0px 13%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .Electroceramics h2{
     margin: 0px 13%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .Electroceramics h3{
     margin: 0px 13%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 @media only screen and (min-width: 768px){
 .MAD p{
@@ -236,20 +285,23 @@ Body {
 
 .MAD h1{
     margin: 0px 13%;
+    font-size:30px;
 }
 .MAD h2{
     margin: 0px 13%;
+    font-size:23px;
 }
 .MAD h3{
     margin: 0px 13%;
+
 }
 
 .MAD p{
 font-size: 20px;
-font-family:sans-serif;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 .MAD a{
-    color: rgb(255, 123, 0);
+    color: rgb(180, 4, 4);
     text-decoration:none;
 }
 .MAD a:hover {
@@ -257,10 +309,10 @@ font-family:sans-serif;
 }
 .Subramanian p{
     font-size: 20px;
-font-family: sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 .Subramanian  a{
-     color: rgb(255, 123, 0);
+     color: rgb(180, 6, 6);
      text-decoration:none;
 }
      .Subramanian  a:hover{
@@ -273,10 +325,10 @@ font-family: sans-serif;
 
 .Electroceramics p{
     font-size: 20px;
-font-family: sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 .Electroceramics  a{
-     color: rgb(255, 123, 0);
+     color: rgb(180,6,6);
      text-decoration:none;
 }
 .Electroceramics a:hover {
@@ -286,6 +338,10 @@ font-family: sans-serif;
     text-align: center;
     display: block;
     width: 100%;
+}
+
+.MOF p{
+    text-align:left;
 }
 
 

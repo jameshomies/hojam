@@ -78,7 +78,8 @@ body {
 }
 .fa-angle-right{
     float:right;
-    position:center;
+    position:right;
+    
 }
 
 .navbar {
@@ -87,12 +88,15 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    color: rgb(129, 1, 1);
+    color: rgb(0, 0, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .brand-title {
     font-size: 2rem;
     margin: .5rem;
+    padding-left:.75rem;
+    color:rgb(180,6,6);
 }
 
 .navbar-links {
@@ -101,23 +105,62 @@ body {
 
 .navbar-links ul {
     display: flex ;
-    margin: 0;
+    margin: 0px;
     padding: 20px;
+    
 }
 
 .navbar-links li {
     list-style: none;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     font-style:inherit;
+    
 }
+
+
+  
+
 
 .resume-link a {
     list-style: none;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     font-style:inherit;
+    
+    
 }
+
+.resume-link2 a {
+    list-style: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    font-style:inherit;
+    color:rgb(180, 6,6 );
+    margin: 10px;
+    text-decoration:none;
+   
+
+}
+.resume-link2{
+    
+    width: 400px;
+    float:left;
+    display:block;
+    position:absolute;
+    text-decoration:none;
+    text-align:center;
+}
+
+.resume-link2 a:hover{
+    color:blue;
+    
+}
+
+
+
+
+    
 
 
 .navbar-links li a {
@@ -133,7 +176,7 @@ body {
 
 .navbar-links ul li a:hover {
     border-bottom:  solid rgb(179, 51, 51);
-    color:red;
+    color:rgb(219, 29, 29);
 
     
 }
@@ -153,9 +196,25 @@ body {
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: rgb(245, 154, 18);
+    background-color: rgb(180,6,6);
     border-radius: 10px;
 }
+
+@media (min-width:768px){
+
+.resume-link {
+    display:none;
+}
+}
+
+
+    
+
+
+.experience-photo p{
+    top: 500px;
+}
+
 
 @media (max-width: 768px) {
     .navbar {
@@ -188,4 +247,9 @@ body {
     .navbar-links.active {
         display: flex;
     }
+
+    .resume-link2{
+        display:none;
+    }
+
 }

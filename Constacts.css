@@ -7,7 +7,7 @@ height: 150;
 left: 40%;
 top: 34%;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-background-color: rgba(128, 236, 213, 0.6);
+background-color: rgba(245, 245, 245, 0.6);
 border-radius: 25px;
 padding: 15px;
 text-decoration:none;
@@ -20,7 +20,7 @@ text-decoration:none;
 }
 
 .contacts h2:hover{
-    background-color: rgb(245, 133, 29);
+    background-color: rgb(180,6,6);
         border-bottom: px solid rgb(7, 7, 7);
         color:black;
     
@@ -28,15 +28,15 @@ text-decoration:none;
 }
 
 .contacts h2{
-    position:absolute;
+    position:sticky;
     color: rgb(255, 255, 255);
-    background-color:rgb(42, 128, 57);
+    background-color:rgb(0, 0, 0);
     text-decoration:none;
     text-align:center;
     width: 50%;
-    left: 43%;
+    left: 48%;
     border-radius: 5px;
-    top: 80%;
+    top: 88%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     
 }
@@ -44,27 +44,27 @@ text-decoration:none;
 
 @media only screen and (max-width: 768px){
     .contacts {
-        position:absolute;
+        position:sticky;
         width: 350px;
         height: 150;
         
         left: 7%;
-        top: 28%;
+        top: 55%;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: rgba(128, 236, 213, 0.6);
+        background-color: rgba(255, 255, 255, 0.6);
         border-radius: 25px;
         padding: 15px;
         text-decoration:none;
         }
         .contacts a{
             color: white;
-            background-color:rgb(255, 102, 0);
+            background-color:rgb(0, 0, 0);
             text-decoration:none;
             text-align:center;
         }
         
         .contacts h2:hover{
-            background-color: rgb(245, 133, 29);
+            background-color: rgb(180,6,6);
                 border-bottom: px solid rgb(7, 7, 7);
                 color:black;
             
@@ -74,13 +74,13 @@ text-decoration:none;
         .contacts h2{
             position:absolute;
             color: rgb(255, 255, 255);
-            background-color:rgb(42, 128, 57);
+            background-color:rgb(0, 0, 0);
             text-decoration:none;
             text-align:center;
             width: 50%;
             left: 43%;
             border-radius: 5px;
-            top: 80%;
+            top: 90%;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
             
         }
@@ -88,7 +88,7 @@ text-decoration:none;
 
 @media only screen and (max-width: 413px){
     .contacts {
-        position:absolute;
+        position:sticky;
         width: 325px;
         height: 150;
         
@@ -127,5 +127,11 @@ text-decoration:none;
             top: 88%;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
             
+        }
+
+        @media only screen and (max-width:768px){
+             .img {
+                display:none;
+            }
         }
 }
