@@ -14,6 +14,124 @@ html
     background-repeat: no-repeat
     
  }
+
+ .body{
+     overflow:hidden;
+ }
+
+.container{
+        background-image: url('IMG/IMG_20220117_145325_Original.jpg');
+        background-image: url(IMG/Campus.jpg);
+        background-image: url(IMG/IMG_8615.jpg);
+        
+        
+        
+        background-size:cover;
+        background-repeat:no-repeat;
+        height:82vh;
+        background-position-x: center;
+        background-position-y: 30%;
+        
+      
+    transition:0s;
+    animation-name: animate;
+    animation-direction: normal;
+    animation-duration:120s;
+    animation-fill-mode: backwards;
+    animation-iteration-count:infinite ;
+    animation-play-state:running;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    -webkit-backface-visibility:hidden;
+}
+
+@keyframes animate {
+    0%{
+        background-image:url('IMG/IMG_20220117_145325_Original.jpg');
+    }10%
+    {
+        background-image: url(IMG/Campus.jpg);
+    }20%
+    {
+        background-image: url(IMG/IMG_1534[57241].jpg);
+    }
+    30%
+    {
+        background-image: url(IMG/IMG_0130[57253].jpg)
+    }
+    
+    40%{
+        background-image: url(IMG/IMG_1457[57239].jpg);
+    }
+   
+
+    45%{background-image: url(IMG/IMG_20220117_114146_Original.jpg);
+       
+    
+    }
+    50%{
+        background-image: url(IMG/IMG_1522[57240].jpg);
+    }
+   
+    60%{
+        background-image: url(IMG/IMG_7019[57248].jpg);
+    }
+    70%{
+        background-image: url(IMG/IMG_7984[57249].jpg);
+    }
+
+    75%{
+        background-image: url(IMG/IMG_1259.jpg);
+    }
+    80%{
+        background-image: url(IMG/20220520_192104.JPG);
+    }
+    85%{
+        background-image: url(IMG/IMG_1252.jpg);
+        
+    }
+    
+    90%{
+        background-image: url(IMG/IMG_8615.jpg)
+        ;
+    }
+    95%{
+        background-image: url(IMG/PXL_20220117_195532465_Original.jpg);
+    }
+    
+    100%{
+        background-image: url('IMG/IMG_20220117_145325_Original.jpg');
+    }
+    
+}
+
+.resume-links{
+    text-align:center;
+    padding: 0px;
+    font-size:15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+    display:flex;
+    margin-top: 11px;
+    
+    margin-left:41%;
+    
+   
+}
+.resume-links a{
+    margin-left:30px;
+    margin-right:30px;
+    
+    text-decoration: none;
+    text-align:center;
+    color: #000;
+}
+
+.resume-links a:hover {
+    color:brown;
+}
+
+
     .name {
         position: static; 
         background-color: rgba(51, 153, 11, 0.6);
@@ -205,10 +323,10 @@ html
            
             margin: 90px;
             
-            font-size: 71px;
+            font-size: 68px;
             border-radius: 15px;
             padding: 50px 40px 50px;
-            top: 19%;
+            top: 29%;
             left:2%;
             text-align:center;
            }
@@ -234,14 +352,14 @@ html
         .intro{
             position:fixed;
             width: fit-content;
-            left: 4%;
-            top: 20%;
+            left: 0%;
+            top: 30%;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
             background-color: rgb(253, 253, 253, 0.86);
             border-radius: 30px;
         }
         .intro h3{
-            font-size:30px;
+            font-size:24px;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             margin: 10px;
         }

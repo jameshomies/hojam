@@ -10,3 +10,12 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:26px;
 }
+
+#preloader{
+    background: url(IMG/Walk.gif) no-repeat center center;
+    height:100vh;
+    width:100%;
+    position:fixed;
+    z-index; 100;
+
+}

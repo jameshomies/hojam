@@ -101,13 +101,21 @@
 </style>
 </head>
 <body>
-
+  
 <div class="photo-header">
 <h1>Photos</h1>
 </div>
 
 
 <div class="grid-container">
+  <div id="preloader"></div>
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load",function(){
+      loader.style.display ="none"
+    })
+  
+  </script>
   <div class="grid-item"><img src="IMG/IMG_1536.jpg" alt=""></div>
   <div class="grid-item"><img src= "IMG/IMG_1111.PNG""></div>
   <div class="grid-item"><img src="IMG/IMG-0212.jpg" alt=""></div>  
@@ -134,8 +142,9 @@
   <div class="grid-item"><img src="IMG/IMG_1654.JPG" alt=""></div>  
   <div class="grid-item"><img src="IMG/IMG_1632.jpg" alt=""></div>  
   <div class="grid-item"><img src="IMG/IMG_2037.JPG" alt=""></div>  
-
+  
 </div>
+
 
 </body>
 </html>
