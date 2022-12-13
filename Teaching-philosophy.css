@@ -59,7 +59,15 @@
     
     }    
     
-   
+   .profile-content-wrapper a{
+       text-decoration:none;
+       color:brown;
+   }
+
+   .profile-content-wrapper a:hover{
+    text-decoration:none;
+    color:blue;
+}
     
     
     @media only screen and (min-width:768px) {

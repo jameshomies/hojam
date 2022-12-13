@@ -20,12 +20,9 @@ html
  }
 
 .container{
-        background-image: url('IMG/IMG_20220117_145325_Original.jpg');
+        background-image: url(IMG/IMG_1534[57241].jpg);
         background-image: url(IMG/Campus.jpg);
-        background-image: url(IMG/IMG_8615.jpg);
-        
-        
-        
+        background-image: url(IMG/IMG_20220117_145325_Original.jpg);
         background-size:cover;
         background-repeat:no-repeat;
         height:82vh;
@@ -36,7 +33,7 @@ html
     transition:0s;
     animation-name: animate;
     animation-direction: normal;
-    animation-duration:120s;
+    animation-duration:30s;
     animation-fill-mode: backwards;
     animation-iteration-count:infinite ;
     animation-play-state:running;
@@ -46,63 +43,18 @@ html
 }
 
 @keyframes animate {
-    0%{
-        background-image:url('IMG/IMG_20220117_145325_Original.jpg');
-    }10%
-    {
+    20%{
+        background-image:url(IMG/IMG_20220117_145325_Original.jpg);
+    }
+    50% {
         background-image: url(IMG/Campus.jpg);
-    }20%
-    {
-        background-image: url(IMG/IMG_1534[57241].jpg);
+    }80%{
+         background-image: url(IMG/IMG_1534[57241].jpg);
     }
-    30%
-    {
-        background-image: url(IMG/IMG_0130[57253].jpg)
-    }
-    
-    40%{
-        background-image: url(IMG/IMG_1457[57239].jpg);
-    }
-   
-
-    45%{background-image: url(IMG/IMG_20220117_114146_Original.jpg);
-       
-    
-    }
-    50%{
-        background-image: url(IMG/IMG_1522[57240].jpg);
-    }
-   
-    60%{
-        background-image: url(IMG/IMG_7019[57248].jpg);
-    }
-    70%{
-        background-image: url(IMG/IMG_7984[57249].jpg);
-    }
-
-    75%{
-        background-image: url(IMG/IMG_1259.jpg);
-    }
-    80%{
-        background-image: url(IMG/20220520_192104.JPG);
-    }
-    85%{
-        background-image: url(IMG/IMG_1252.jpg);
-        
-    }
-    
     90%{
-        background-image: url(IMG/IMG_8615.jpg)
-        ;
+        background-image:url(IMG/IMG_20220117_145325_Original.jpg);
     }
-    95%{
-        background-image: url(IMG/PXL_20220117_195532465_Original.jpg);
-    }
-    
-    100%{
-        background-image: url('IMG/IMG_20220117_145325_Original.jpg');
-    }
-    
+ 
 }
 
 .resume-links{
