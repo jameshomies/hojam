@@ -20,7 +20,8 @@ html
  }
 
 .container{
-        background-image: url(IMG/IMG_1534[57241].jpg);
+    
+    background-image: url(IMG/20220520_192104.JPG);
         background-image: url(IMG/Campus.jpg);
         background-image: url(IMG/IMG_20220117_145325_Original.jpg);
         background-size:cover;
@@ -49,7 +50,7 @@ html
     50% {
         background-image: url(IMG/Campus.jpg);
     }80%{
-         background-image: url(IMG/IMG_1534[57241].jpg);
+         background-image: url(IMG/20220520_192104.JPG);
     }
     90%{
         background-image:url(IMG/IMG_20220117_145325_Original.jpg);
