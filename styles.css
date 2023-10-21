@@ -44,16 +44,14 @@ html
 }
 
 @keyframes animate {
-    20%{
+    10%{
         background-image:url(IMG/IMG_20220117_145325_Original.jpg);
     }
-    50% {
-        background-image: url(IMG/Campus.jpg);
-    }80%{
-         background-image: url(IMG/20220520_192104.JPG);
+    40% {
+        background-image: url(Northwestern.jpeg);
     }
-    90%{
-        background-image:url(IMG/IMG_20220117_145325_Original.jpg);
+    80%{
+        background-image:url(IMG/Campus.jpg);
     }
  
 }

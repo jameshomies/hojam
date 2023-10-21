@@ -239,6 +239,12 @@ Body {
 
             }
         
+.OSU-header h1{
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    font-size:300px;
+}
 
 .research-header p{ 
 }
